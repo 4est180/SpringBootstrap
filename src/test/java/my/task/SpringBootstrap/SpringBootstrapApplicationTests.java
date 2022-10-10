@@ -1,10 +1,10 @@
-package ru.kata.Task_3_1_3;
+package my.task.SpringBootstrap;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Task_3_1_3_ApplicationTests {
+class SpringBootstrapApplicationTests {
 
 	@Test
 	void contextLoads() {

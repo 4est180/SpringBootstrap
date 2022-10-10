@@ -1,5 +1,6 @@
-package ru.kata.Task_3_1_3.controller;
+package my.task.SpringBootstrap.controller;
 
+import my.task.SpringBootstrap.model.Role;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -7,9 +8,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-import ru.kata.Task_3_1_3.model.Role;
-import ru.kata.Task_3_1_3.model.User;
-import ru.kata.Task_3_1_3.service.UserService;
+import my.task.SpringBootstrap.model.User;
+import my.task.SpringBootstrap.service.UserService;
 
 import javax.validation.Valid;
 import java.util.Arrays;

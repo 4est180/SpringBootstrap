@@ -1,4 +1,4 @@
-package ru.kata.Task_3_1_3.configs;
+package my.task.SpringBootstrap.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -21,7 +21,7 @@ import java.util.Properties;
 @Configuration
 @PropertySource("classpath:application.properties")
 @EnableTransactionManagement
-@ComponentScan("ru.kata.Task_3_1_3")
+@ComponentScan("my.task.SpringBootstrap")
 public class HibernateConfig {
     private final Environment env;
 
@@ -34,7 +34,7 @@ public class HibernateConfig {
         LocalContainerEntityManagerFactoryBean eM = new LocalContainerEntityManagerFactoryBean();
 
         eM.setDataSource(dataSource());
-        eM.setPackagesToScan("ru.kata.Task_3_1_3.model");
+        eM.setPackagesToScan("my.task.SpringBootstrap.model");
 
         JpaVendorAdapter jpaVendorAdapter = new HibernateJpaVendorAdapter();
         eM.setJpaVendorAdapter(jpaVendorAdapter);

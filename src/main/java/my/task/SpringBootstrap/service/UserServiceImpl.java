@@ -1,13 +1,13 @@
-package ru.kata.Task_3_1_3.service;
+package my.task.SpringBootstrap.service;
 
+import my.task.SpringBootstrap.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.kata.Task_3_1_3.dao.UserDao;
-import ru.kata.Task_3_1_3.model.User;
+import my.task.SpringBootstrap.model.User;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package ru.kata.Task_3_1_3.dao;
+package my.task.SpringBootstrap.dao;
 
 import org.springframework.stereotype.Repository;
-import ru.kata.Task_3_1_3.model.User;
+import my.task.SpringBootstrap.model.User;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;

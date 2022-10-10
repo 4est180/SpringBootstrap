@@ -1,4 +1,4 @@
-package ru.kata.Task_3_1_3.model;
+package my.task.SpringBootstrap.model;
 
 import org.springframework.security.core.GrantedAuthority;
 

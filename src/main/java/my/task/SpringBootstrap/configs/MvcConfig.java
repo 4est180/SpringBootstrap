@@ -1,4 +1,4 @@
-package ru.kata.Task_3_1_3.configs;
+package my.task.SpringBootstrap.configs;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

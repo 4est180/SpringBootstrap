@@ -1,10 +1,12 @@
-package ru.kata.Task_3_1_3.dao;
+package my.task.SpringBootstrap.service;
 
-import ru.kata.Task_3_1_3.model.User;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import my.task.SpringBootstrap.model.User;
 
 import java.util.List;
 
-public interface UserDao {
+public interface UserService extends UserDetailsService {
+
     void saveUser(User user);
 
     void removeUserById(long id);

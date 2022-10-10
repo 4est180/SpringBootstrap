@@ -1,4 +1,4 @@
-package ru.kata.Task_3_1_3.controller;
+package my.task.SpringBootstrap.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -6,8 +6,8 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import ru.kata.Task_3_1_3.model.User;
-import ru.kata.Task_3_1_3.service.UserService;
+import my.task.SpringBootstrap.model.User;
+import my.task.SpringBootstrap.service.UserService;
 
 @Controller
 public class UserController {
